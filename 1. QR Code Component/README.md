@@ -6,7 +6,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -19,12 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](/images/Screenshot.jpeg)
-
-### Links
-
-- Solution URL: https://github.com/code-sparkle/Frontend-Challenge-1.git
-- Live Site URL: https://code-sparkle.github.io/Frontend-Challenge-1/
+![](./images/Screenshot.jpeg)
 
 ## My Process
 
