@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    display: flex;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+@media (min-width: 640px) {
+    #image-product-desktop {
+        width: 300px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    #image-product-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .card {
+        flex-flow: column wrap;
+        max-width: 95vw;
+    }
+
+    #image-product-desktop {
+        display: none;
+    }
+
+    #image-product-mobile {
+        width: 95vw;
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+div.info {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px 32px;
+}
+
+@media (min-width: 640px) {
+    div.info {
+        justify-content: space-around;
+        width: 300px;
+    }
+}
+
+@media (max-width: 640px) {
+    div.info {
+        width: 95vw;
+        height: auto;
+    }
+
+    div>p {
+        margin-bottom: 15px;
+    }
+}
+
+.tag {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.name {
+    color: hsl(212, 21%, 14%);
+    font: 900 33px 'Fraunces';
+    line-height: 31px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.price,
+button {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    justify-content: flex-start;
+}
+
+.sales-price {
+    margin-right: 22px;
+    color: hsl(159, 36%, 37%);
+    font: 900 34px Fraunces;
+}
+
+.original-price {
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+button {
+    justify-content: center;
+    height: 50px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: hsl(159, 36%, 37%);
+    transition: 1s;
+}
+
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+
+#icon-cart {
+    margin-right: 15px;
+    height: 15px;
+    background: transparent;
+}
+
+button>span {
+    color: #fff;
+    font-size: 13px;
+}
