@@ -7,7 +7,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [Features](#features)
   - [Screenshots](#screenshots)
-  - [Links](#links)
 - [My Process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -28,10 +27,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - Mobile version  
 ![](./images/screenshot-mobile.jpg)
-
-### Links
-- Click [here](https://github.com/code-sparkle/Frontend-Challenge-2) to see full codes
-- Click [here](https://code-sparkle.github.io/Frontend-Challenge-2/) to see live site
 
 ## My Process
 
